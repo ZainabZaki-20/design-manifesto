@@ -1,42 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Art Is Cheap</title>
     <style>
       body {
-        background-color: hotpink;
+        background-color: #756ec4;
         padding: 25px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+       h1 {
+        color: #2d4332;
+        font-size: 200px;
+        text-align: center;
+        margin-top: -60px;
+        margin-bottom: 10px;
+      }
+      .center-line {
+        text-align:center;
+        margin-top: 10px;
+        font-size: 60px;
+      }
+      .fight-left{
+        display:inline-block;
+        transform:rotate(15deg);
+        color: #8a192a;
+        font-weight: bold;
+      }
+      .fight-right{
+        display:inline-block;
+        transform:rotate(-20deg);
+        color: #8a192a;
+        font-weight: bold;
+      }
+      .crooked-bottom {
+        text-align:center;
+        margin-top: 50px;
+        font-size: 60px;
+        color: #8a192a
       }
       p {
         color: dodgerblue;
         font-size: 30px;
       }
-      h1 {
-        color: green;
-        font-size: 200px;
-        text-align: center;
-        margin-top: -60px;
-      }
       span { 
-        color: orange;
+        color: #492240;
         text-decoration: uppercase;
         font-size: 100px;
       }
       div {
-        color: red;
+        color: #8a192a;
         font-size: 75px;
-        transform: rotate(30deg);
-        margin-top: 300px;
       }
-      .center-line {
+      .last-line {
         text-align:center;
+        font-size: 50px;
+        color:#492240;
+      }
+      .slanted-style {
+        display: inline-block;
+        transform: rotate(30deg);
       }
     </style>
   </head>
   <body>
-    <h1><a href="https://1000manifestos.com/the-cheap-art-manifesto/">Why is Art Cheap?</a></h1>
-    <div>ART FIGHTS AGAINST WAR AND STUPIDITY!</div>
-    <p>Art is Cheap! Hurrah!</p>
-    <p><div class="center-line"><span>ART IS FOOD</span>. You can’t <span>EAT</span> it <span>BUT</span> it <span>FEEDS</span>you.</div></p>
+    <h1>Why is Art Cheap?</h1>
+   <p>
+      <div class="center-line">
+        <span>ART IS FOOD</span>. You can’t <span>EAT</span> it <span>BUT</span> it <span>FEEDS</span>you.
+      </div>
+    </p>
+    <div class="crooked-bottom">
+      ART<span class="fight-right">FIGHTS</span>
+         AGAINST <span class="fight-right">WAR</span>
+         AND <span class="fight-left">STUPIDITY!</span>
+    </div>
     
+        <div class="last-line">
+        Art is Cheap! Hurrah!
+        </div>
+  
   </body>
 </html>
